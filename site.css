@@ -1,0 +1,53 @@
+html { background-color: #fff8ee; margin: 0; padding: 0; color: #512415; }
+body { margin: 0; padding: 0; width: 100%;}
+a { color: #333; outline: none; padding-left: 3px; padding-right: 3px; text-decoration: underline; }
+a:link, a:visited, a:active, a:hover { color: #b07e4a; }
+a:hover {  }
+header, footer, hgroup, nav, section { display: block; }
+h1, h2, h3, h4, h5, h6 { color: #512415; margin-bottom: 0; padding-bottom: 0; }
+h1 { font-size: 2em; margin: 0px; }
+img {border: 0;}
+
+h2 { font-size: 1.75em; margin-top: 50px; float: right;}
+
+h3 { font-size: 1.2em; }
+h4 { font-size: 1.1em; }
+p {margin: 0; }
+
+.tabletitle {text-align: left;}
+
+/* main layout
+----------------------------------------------------------*/
+#logo {width: 750px; margin: auto;}
+.logo { margin-bottom: -60px;}
+#mainbody { -moz-box-shadow: 0px 0px 5px 0.1px #000000; -webkit-box-shadow: 0px 0px 5px 0.1px #000000; box-shadow: 0px 0px 5px 0.1px #000000; margin: auto; width: 843px; clear: both; background-color: #ffecd2; padding: 0; display:block; }
+#sidebar { float: left; background-color: #ffecd2; min-height: 600px;}
+.main-content { background-color: white ;display: block; margin-left: 225px; padding:30px; min-height: 500px; }
+header { width: 100%;}
+nav { margin-top: 10px; background-color: #ffecd2; height: auto; padding-top: 50px;}
+footer { clear: both; background-color: #ffecd2; height: 100px; }
+.footerdiv { clear: both; padding-top: 60px; padding-left: 10px;}
+.deelnemers {padding: 30px;}
+
+/* site title
+----------------------------------------------------------*/
+.site-title { color: red; }
+.site-title a, .site-title a:hover, .site-title a:active { background: none; color: red; outline: none; text-decoration: none; }
+
+
+/* menu
+----------------------------------------------------------*/
+ul#menu { width: 205px; float:left; font-size: 24px; font-weight: 600; margin: 0; padding: 0; margin-bottom: 20px; }
+ul#menu li { width: 205px; float:left; display: inline; list-style: none; padding: 10px; display: block; }
+ul#menu li:hover {background-color: white;}
+ul#menu li a { background: none; text-decoration: none; }
+ul#menu li a:hover { width: 205px; color: #512415; text-decoration: none; background-color: white;}
+ul#menu .selected {background-color: white; color: #512415;}
+
+/* twitter
+-----------------------------------------------------------*/
+.twitterclass { padding: 30px 10px 0px 10px; margin-top: 10px; display: block;}
+
+/* twitter
+-----------------------------------------------------------*/
+textarea#styled { width: 300px; height: 200px; }

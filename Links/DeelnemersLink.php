@@ -1,0 +1,1 @@
+<li><a href="/deelnemers.php">Inschrijven</a></li>
